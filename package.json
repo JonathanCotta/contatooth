@@ -1,0 +1,44 @@
+{
+	"name": "contatooth",
+	"version": "1.0.0",
+	"description": "tutorial MEAN",
+	"repository": {},
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"build": "grunt && cd dist && nodemon server.js",
+		"test": "karma start config/karma.config.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cookie-parser": "^1.4.3",
+		"ejs": "^2.6.1",
+		"express": "^4.16.3",
+		"express-load": "^1.1.16",
+		"express-session": "^1.15.6",
+		"helmet": "^3.13.0",
+		"method-override": "^3.0.0",
+		"mongo-sanitize": "^1.0.0",
+		"mongodb": "^3.1.4",
+		"mongoose": "^5.2.8",
+		"mongoose-findorcreate": "^3.0.0",
+		"morgan": "^1.9.0",
+		"passport": "^0.4.0",
+		"passport-github": "^1.1.0"
+	},
+	"devDependencies": {
+		"grunt": "^1.0.3",
+		"grunt-contrib-clean": "^1.1.0",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-cssmin": "^2.2.1",
+		"grunt-contrib-uglify": "^4.0.0",
+		"grunt-ng-annotate": "^3.0.0",
+		"grunt-usemin": "^3.1.1",
+		"jasmine-core": "^3.2.1",
+		"karma": "^3.0.0",
+		"karma-chrome-launcher": "^2.2.0",
+		"karma-jasmine": "^1.1.2"
+	}
+}

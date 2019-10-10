@@ -1,0 +1,26 @@
+{
+  "name": "contatooth",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Jonathan Cotta <jonathancotta.jc@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3",
+    "angular-route": "1.3",
+    "bootstrap": "3",
+    "angular-resource": "1.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.3"
+  }
+}
